@@ -2,7 +2,7 @@
 
 ## 개요
 
-해당 모듈은 Node.js의 stdin 기능을 파이썬과 유사한 동기 방식의 input(message)으로 사용할 수 있게 만든 모듈입니다. 
+Node.js의 ```stdin``` 기능을 파이썬과 유사한 동기 방식의 ```input(parameter)```으로 사용할 수 있게 만든 모듈입니다. 
 
 ## Pythonic-input 적용 방법
 
@@ -15,7 +15,7 @@ const { input } = require(”./pythonic-input/pythonicInput.js);
 
 ## 기본 사용 방법
 
-### 1) parameter 없이 그냥 사용
+### 1) ```parameter``` 없이 그냥 사용
 
 ```jsx
 //기본적인 사용법
@@ -33,9 +33,9 @@ console.log(typeof test);
 >> string //결과는 기본적으로 string 형태로 저장됩니다.
 ```
 
-### 2) parameter와 함께 사용
+### 2) ```parameter``` 와 함께 사용
 
-parameter를 써서 받을 입력값에 대한 간단한 표기를 할 수도 있습니다.
+```parameter```를 써서 받을 입력값에 대한 간단한 표기를 할 수도 있습니다.
 
 ```jsx
 //기본적인 사용법 2: parameter를 써서 받을 입력값에 대한 간단한 표기를 할 수도 있습니다.
@@ -53,7 +53,9 @@ console.log(typeof test);
 
 ## 응용 사용법
 
-기본적으로 string 인스턴스를 반환합니다. 따라서 String 클래스와 그것을 상속받는 상위 클래스의 프로토타입 메서드를 사용할 수 있습니다.
+```input(parameter)```는 기본적으로 ```String``` 인스턴스를 결과값으로 반환합니다. 
+
+따라서 ```String``` 클래스 혹은 ```String```의 상위 클래스 프로토타입 메서드 역시 사용할 수 있습니다.
 
 ```jsx
 //응용 사용법
@@ -65,7 +67,7 @@ console.log(test);
 
 ```jsx
 <<실행 결과>>
->> "지금 가장 보고 싶은 사람: zoodasa 그리워 보고싶어 잘지내 //parameter 출력 및 사용자의 입력
->> ['zoodasa', '그리워', '보고싶어', '잘지내'] //console.log로 인한 출력
->> array //.split() 메서드의 영향으로 array 형태로 저장되었습니다.
+>> "지금 가장 보고 싶은 사람: zoodasa 그리워 보고싶어 잘지내 // parameter 출력 및 사용자의 입력
+>> ['zoodasa', '그리워', '보고싶어', '잘지내'] // console.log로 인한 출력
+>> array //split() 메서드의 영향으로 array 형태로 저장되었습니다.
 ```
