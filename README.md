@@ -9,8 +9,7 @@ Node.js의 ```stdin``` 기능을 파이썬과 유사한 동기 방식의 ```inpu
 사용을 원하는 프로젝트나 모듈의 디렉터리에 해당 파일을 추가하시고, 아래 코드를 사용을 원하는 프로젝트 코드 상단에 추가해주세요.
 
 ```jsx
-//pythonic-input 모듈 추가
-const { input } = require(”./pythonic-input/pythonicInput.js);
+const { input } = require("./pythonic-input/pythonicInput.js");
 ```
 
 ## 기본 사용 방법
@@ -23,7 +22,6 @@ const test = input();
 
 console.log(test);
 console.log(typeof test);
-
 ```
 
 ```jsx
@@ -75,4 +73,3 @@ console.log(typeof test);
 >> ['zoodasa', '그리워', '보고싶어', '잘지내'] // console.log로 인한 출력
 >> array //split() 메서드의 영향으로 array 형태로 저장되었습니다.
 ```
-
