@@ -28,8 +28,9 @@ console.log(typeof test);
 
 ```jsx
 <<실행 결과>>
->> 테스트입니다. // 사용자의 입력
->> 테스트입니다. // console.log로 인한 출력
+
+>> zoodasa // 사용자의 입력
+>> zoodasa // console.log로 인한 출력
 >> string //결과는 기본적으로 string 형태로 저장됩니다.
 ```
 
@@ -46,6 +47,7 @@ console.log(typeof test);
 
 ```jsx
 <<실행 결과>>
+
 >> 지금 가장 보고 싶은 사람: zoodasa // 입력한 parameter가 출력되고 사용자가 입력했습니다.
 >> zoodasa // console.log로 인한 출력
 >> string //parameter가 있어도 결과는 string 형태로 저장됩니다.
@@ -68,7 +70,9 @@ console.log(typeof test);
 
 ```jsx
 <<실행 결과>>
->> "지금 가장 보고 싶은 사람: zoodasa 그리워 보고싶어 잘지내 // parameter 출력 및 사용자의 입력
+
+>> 지금 가장 보고 싶은 사람: zoodasa 그리워 보고싶어 잘지내 // parameter 출력 및 사용자의 입력
 >> ['zoodasa', '그리워', '보고싶어', '잘지내'] // console.log로 인한 출력
 >> array //split() 메서드의 영향으로 array 형태로 저장되었습니다.
 ```
+
