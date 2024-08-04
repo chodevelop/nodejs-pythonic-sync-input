@@ -63,6 +63,7 @@ console.log(typeof test);
 //따라서 String 클래스와 그것을 상속받는 상위 클래스의 프로토타입 메서드를 사용할 수 있습니다.
 const test = input("지금 가장 보고 싶은 사람: ").split(" ");//띄어쓰기로 split 구분
 console.log(test);
+console.log(typeof test);
 ```
 
 ```jsx
