@@ -1,6 +1,6 @@
 # pythonic-input (’sync-input’ in Node.js)
 
-# 개요
+## 개요
 
 해당 모듈은 Node.js의 stdin을 파이썬과 유사한 동기 방식의 input(message)으로 사용할 수 있게 전환합니다. 사용을 원하는 프로젝트나 모듈의 디렉터리에 해당 파일을 추가하시고, 아래 코드를 사용을 원하는 프로젝트 코드 상단에 추가해주세요.
 
@@ -9,13 +9,13 @@
 const { input } = require(”./pythonic-input/pythonicInput.js);
 ```
 
-# pythonic-input 사용법
+## pythonic-input 사용법
 
 용법은 아래와 같습니다.
 
-## 1. 기본적인 사용법
+### 1. 기본적인 사용법
 
-### 1) parameter 없이 그냥 사용
+#### 1) parameter 없이 그냥 사용
 
 ```jsx
 //기본적인 사용법
@@ -33,7 +33,7 @@ console.log(typeof test);
 >> string //결과는 기본적으로 string 형태로 저장됩니다.
 ```
 
-### 2) parameter와 함께 사용
+#### 2) parameter와 함께 사용
 
 parameter를 써서 받을 입력값에 대한 간단한 표기를 할 수도 있습니다.
 
@@ -51,7 +51,7 @@ console.log(typeof test);
 >> string //parameter가 있어도 결과는 string 형태로 저장됩니다.
 ```
 
-## 1. 응용 사용법
+### 2. 응용 사용법
 
 기본적으로 string 인스턴스를 반환합니다. 따라서 String 클래스와 그것을 상속받는 상위 클래스의 프로토타입 메서드를 사용할 수 있습니다.
 
