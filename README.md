@@ -1,4 +1,4 @@
-# pythonic-input (’sync-input’ in Node.js)
+# nodejs-pythonic-sync-input
 
 ## 개요
 
