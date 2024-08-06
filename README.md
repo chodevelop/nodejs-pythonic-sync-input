@@ -103,7 +103,7 @@ console.log(typeof test);
 //응용 사용법 2
 //기본적으로 string 인스턴스를 반환합니다.
 //따라서 ```parseFloat``` 메서드와 연계하여 사용이 가능합니다.
-const test = parseFloat(input("숫자를 입력하세요: "));//입력한 문자열을 정수로 변환
+const test = parseFloat(input("숫자를 입력하세요: "));//입력한 문자열을 실수로 변환
 console.log(test);
 console.log(typeof test);
 ```
