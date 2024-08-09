@@ -65,7 +65,7 @@ console.log(typeof test);
 //따라서 String 클래스와 그것을 상속받는 상위 클래스의 프로토타입 메서드를 사용할 수 있습니다.
 const test = input("지금 가장 보고 싶은 사람: ").split(" ");//띄어쓰기로 split 구분
 console.log(test);
-console.log(typeof test);
+console.log(Array.isArray(test));
 ```
 
 ```jsx
@@ -73,7 +73,7 @@ console.log(typeof test);
 
 >> 지금 가장 보고 싶은 사람: zoodasa 그리워 보고싶어 잘지내 // parameter 출력 및 사용자의 입력
 >> ['zoodasa', '그리워', '보고싶어', '잘지내'] // console.log로 인한 출력
->> array //split() 메서드의 영향으로 array 형태로 저장되었습니다.
+>> true //split() 메서드의 영향으로 array 형태로 저장되었습니다.
 ```
 
 ### 2) ```parseInt``` 혹은 ```parseFloat``` 메서드와의 연계
